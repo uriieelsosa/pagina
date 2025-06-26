@@ -1,0 +1,224 @@
+
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+ 
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
+  max-width: 900px;
+  margin: auto;
+  color: white;
+}
+/* el estilo de la imagen de la pagina index */
+.portada img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 15px red;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 100px; 
+  background-color: #111; 
+  color: #f2f2f2; 
+  font-family: 'Rajdhani', sans-serif;
+}
+
+
+  
+ 
+h2 {
+   
+  display: inline-block;
+  background-color:  #f2f2f2; 
+  color: #ec0d0d;
+  font-size: 48px;
+  padding: 20px 40px;
+  border: 6px solid #000;
+  box-shadow: 5px 5px 0 #000;
+  border-radius: 12px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 3px 3px 0 #0055ff, 5px 5px 0 #000; 
+  font-family: 'Bangers', cursive;
+ 
+
+}
+
+
+  h3{
+  margin: 0%;
+    border: 6px solid #000;
+    background-color: #00aaff; 
+    color: #000;
+    font-size: 20px;
+    padding: 10px 30px;
+    text-shadow: 2px 2px #ffffff;
+    border-radius: 25px;
+    font-family: 'Bangers', cursive;
+
+  }
+  h4{
+    display: inline-block ;
+    border: 6px solid #000;
+    background-color: #00aaff; 
+    color: #000;
+    font-size: 20px;
+    padding: 10px 30px;
+    text-shadow: 2px 2px #ffffff;
+    border-radius: 25px;
+    font-family: 'Bangers', cursive;
+  }
+
+
+
+/* esta parte fue creda para hacer el efecto zigzac en la pagina de reparto */
+.columnareparto {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+}
+
+.columnareparto article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  
+}
+.columnareparto img {
+  width: 300px;
+  height: 400px; /* altura fija */
+  object-fit: cover; /* recorta la imagen para que llene el espacio */
+  border-radius: 10px;
+}
+
+.columna {
+  max-width: 500px;
+  font-size: 18px;
+}
+
+.img-izq {
+  flex-direction: row-reverse;
+}
+
+
+
+/* este css es todo el estilo de la pagina de produccion */
+.produccion {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  background-color: #111;
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+  padding: 20px;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.bloque-img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #0055ff;
+  margin: auto;
+  display: block;
+}
+
+.bloque-texto {
+  flex: 1; 
+  padding: 30px; 
+}
+.bloque-texto h3 {
+  text-align: center;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+.bloque-texto p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #f2f2f2;
+}
+
+
+.boton-imagen {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 30px;
+  background-color: #ec0d0d;
+  color: #fff;
+text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  border: 3px solid #000;
+  border-radius: 12px;
+  box-shadow: 3px 3px 0 #0055ff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.boton-imagen:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 0 #000;
+}
+
+
+/* estilo en la pagina de cusiosidades */
+.curiosidades {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.curiosidades ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.curiosidades li {
+  text-align: left;
+  padding: 8px 0;
+  border-left: 4px solid #ff4444;
+  padding-left: 12px;
+  margin-bottom: 10px;
+  background-color: #1c1c1c;
+  border-radius: 5px;
+}
+
+/* el estilo en la pagina de contacto */
+.redes {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 18px;
+  text-align: center;
+ 
+}
+
+.redes a {
+  color: #ffffff;
+  text-shadow: 0 0 5px red;
+  text-decoration: none;
+}
+
+
+footer{
+  text-align: center;
+}
