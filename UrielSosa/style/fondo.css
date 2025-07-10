@@ -1,0 +1,41 @@
+.fondo-inicio {
+    background-image: url("../img/fondo1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .fondo-sobrepeli {
+    background-image: url("../img/fondo2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .fondo-reparto {
+    background-image: url("../img/fondo3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .fondo-produ {
+    background-image: url("../img/fondo4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .fondo-curiosidades {
+    background-image: url("../img/fondo5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  } .fondo-contacto {
+    background-image: url("../img/fondo6.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
