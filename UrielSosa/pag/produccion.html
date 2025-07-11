@@ -9,11 +9,20 @@
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Bangers&family=Rajdhani:wght@400;600&display=swap">
     <link rel="stylesheet" href="../style/fondo.css">
+    <style>
+      .fade-in {
+        animation: aparecer 1.5s ease-in;
+      }
+      @keyframes aparecer {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+    </style>
 </head>
 
 <body class="fondo-produ">  
    <header class="navbar">
-
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
         <h1>El Hombre Araña (2002)</h1>
         
          <nav>
@@ -28,7 +37,7 @@
             </nav>
     </header>
 
-    <main>
+    <main class="fade-in">
           <section>
             <h2>Producción y Estudios de Grabación</h2>
           

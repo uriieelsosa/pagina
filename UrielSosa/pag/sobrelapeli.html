@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -9,6 +9,15 @@
   <link rel="stylesheet" href="../style/style.css">
   <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Bangers&family=Rajdhani:wght@400;600&display=swap">
   <link rel="stylesheet" href="../style/fondo.css">
+  <style>
+    .fade-in {
+      animation: aparecer 1.5s ease-in;
+    }
+    @keyframes aparecer {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
 </head>
 
 <body class="fondo-sobrepeli">
@@ -27,7 +36,7 @@
     </nav>
   </header>
 
-  <main>
+  <main class="fade-in">
 
 
     <h2>Sobre la Película </h2>

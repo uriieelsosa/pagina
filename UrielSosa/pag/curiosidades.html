@@ -9,6 +9,15 @@
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Bangers&family=Rajdhani:wght@400;600&display=swap">
     <link rel="stylesheet" href="../style/fondo.css">
+    <style>
+      .fade-in {
+        animation: aparecer 1.5s ease-in;
+      }
+      @keyframes aparecer {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+    </style>
 </head>
 
 <body class="fondo-curiosidades">
@@ -28,7 +37,8 @@
             </nav>
     </header>
 
-    <main class="curiosidades">
+    <main class="fade-in">
+    <section class="curiosidades">
       <h2>🕷️ Curiosidades de Spider-Man</h2>
 
       <ul>
@@ -49,6 +59,7 @@
         <li><strong>Teen Choice Awards:</strong> Película del año y Mejor Actor de Película - Acción.</li>
       </ul>
     </section>
+    </main>
 
       
 

@@ -9,6 +9,15 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bangers&family=Rajdhani:wght@400;600&display=swap">
     <link rel="stylesheet" href="style/fondo.css">
+    <style>
+        .fade-in {
+          animation: aparecer 1.5s ease-in;
+        }
+        @keyframes aparecer {
+          from { opacity: 0; transform: translateY(20px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+      </style>
 </head>
 
 <body class="fondo-inicio">
@@ -26,9 +35,10 @@
                 <li><a href="pag/contacto.html">Contacto</a></li>
             </ul>
             </nav>
+            
     </header>
 
-    <main>
+    <main class="fade-in">
       
         <article class="portada"> 
             <img src="img/poster.jpg" alt="postr de la pelicula" height="300" width="300">
@@ -50,7 +60,7 @@
           </nav>
           
     </main>
-    <footer>
+    <footer  class="fade-in">
         <p>© 2025 Página homenaje a Spider-Man (2002) – Creada por U.sosa</p>
       </footer>
 </body>

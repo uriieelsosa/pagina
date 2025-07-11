@@ -223,3 +223,30 @@ text-decoration: none;
 footer{
   text-align: center;
 }
+
+.fade-in {
+  animation: aparecer 1.5s ease-in;
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.columna {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.columna img {
+  max-width: 300px;
+  height: auto;
+}
